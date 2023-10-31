@@ -20,7 +20,7 @@ git clone <https://github.com/{your_username}/evotorch.git>
 ```
 4. We recommend creating a new conda environment from our `env.yaml` file, which will contain all development dependencies.
 ```bash
-conda env create -f env.yaml
+conda env create -f env.yml
 ```
 5. As an alternative to the `conda env create ...` command shown above, you could also create a new empty working environment (using `conda` or `virtualenv`), and then you could install into this new environment all development dependencies using `pip`:
 ```bash
